@@ -20,7 +20,6 @@ const Contact = () => {
         }
     }, [status.message]);
 
-    // THIS FUNCTION WAS MISSING. IT IS NOW ADDED BACK.
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
@@ -29,7 +28,9 @@ const Contact = () => {
         e.preventDefault();
         setStatus({ submitting: true, message: '' });
         try {
-            const res = await axios.post('http://localhost:5000/api/send-email', formData);
+            // THIS IS THE LINE TO CHANGE
+            const res = await axios.post(`${import.meta.env.VITE_API_URL}/api/send-email`, formData);
+            
             setStatus({ submitting: false, message: res.data.msg });
             setFormData({ name: '', email: '', subject: '', message: '' });
         } catch (error) {
