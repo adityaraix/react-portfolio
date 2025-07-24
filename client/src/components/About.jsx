@@ -11,7 +11,7 @@ const About = () => {
                 <div className="section-header"><span className="section-title">/ about me</span></div>
                 <div className="flex flex-col md:flex-row gap-8 items-start w-full">
                     <div className="md:w-3/5 text-lg leading-relaxed">
-                        <p className="mb-4">Hello! I'm Aditya Rai, a software engineer passionate about transforming complex data into usable, high-impact products. I combine expertise in machine learning, modern web technologies, and thoughtful design to build solutions that help businesses grow.</p>
+                        <p className="mb-4">Hello! I'm Aditya Rai, an aspiring software engineer passionate about transforming complex data into usable, high-impact products. I combine expertise in machine learning, modern web technologies, and thoughtful design to build solutions that help businesses grow.</p>
                         <p className="mb-4">Here are some technologies I've been working with recently:</p>
                         <ul className="tech-stack grid grid-cols-2 gap-2">
                             <li>Python</li><li>JavaScript (ES6+)</li><li>React.js & Node.js</li><li>TensorFlow & Keras</li>

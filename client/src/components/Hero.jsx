@@ -9,7 +9,7 @@ const Hero = () => {
                 <h1 className="intro-title">Aditya<span className="intro-name"> Rai</span>.<span className="Cursor">|</span></h1>
                 <div className="intro-subtitle">I build data-driven solutions.</div>
                 <div className="intro-desc">
-                    I'm a software engineer and designer specializing in AI models, full-stack web applications, and data visualizations that deliver real-world value.
+                    I'm an aspiring software engineer and designer specializing in AI models, full-stack web applications, and data visualizations that deliver real-world value.
                 </div>
                 <a href="mailto:adityarai.rai21@gmail.com" className="intro-contact"><i className="fas fa-envelope mr-2"></i> Say hi!</a>
             </div>
